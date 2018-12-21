@@ -1,0 +1,46 @@
+html{
+    background-color: #000;
+    color: #000;
+    font-family: 'Poor Story', cursive;  
+    font-size: 25px;
+}
+ #container{
+     background-color: #fff;
+     height: 535px;
+     width: 400px;
+     margin: 200px auto;
+ }   
+input,select, button{
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0,.5);
+    font-family: 'Poor Story', cursive;  
+}
+h2{
+    text-align: center;
+    padding: 15px ;
+    background-color: #C0BFBF;
+}
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 15px 10px;
+}
+#calculate{
+    display: block;
+    outline: 0;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px; 
+}
+#calculate:hover{
+    background: rgba(0,0,0,.2);
+}
+#tip{
+    display: block;
+    margin: 10px auto;
+    font-size: 30px;
+    color:red;
+    text-align: center;
+}
