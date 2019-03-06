@@ -3,6 +3,7 @@ function calculateTip(){
     const guests = document.getElementById("people").value;
     const service = document.getElementById("service_type").value;
     let tip;
+    /* When user didn't input total bill */
     if(totalBill == 0){
         alert("Please enter the total bill!")
     }
