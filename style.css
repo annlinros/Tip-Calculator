@@ -1,46 +1,58 @@
-html{
-    background-color: #000;
-    color: #000;
-    font-family: 'Poor Story', cursive;  
-    font-size: 25px;
+:root {
+  font-size: 62.5%;
 }
- #container{
-     background-color: #fff;
-     height: 535px;
-     width: 400px;
-     margin: 200px auto;
- }   
-input,select, button{
-    margin-top: 10px;
-    line-height: 20px;
-    font-size: 20px;
-    border: 1px solid rgba(0,0,0,.5);
-    font-family: 'Poor Story', cursive;  
+html {
+  background-color: #000;
+  color: #000;
+  font-family: "Poor Story", cursive;
 }
-h2{
-    text-align: center;
-    padding: 15px ;
-    background-color: #C0BFBF;
+h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
 }
-.content{
-    display: flex;
-    flex-flow: column wrap;
-    padding: 15px 10px;
+#container {
+  background-color: #fff;
+  height: 50rem;
+  width: 40rem;
+  margin: 20rem auto;
 }
-#calculate{
-    display: block;
-    outline: 0;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 5px; 
+label {
+  font-size: 2rem;
 }
-#calculate:hover{
-    background: rgba(0,0,0,.2);
+input,
+select,
+button {
+  margin-top: 1rem;
+  line-height: 2rem;
+  font-size: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  font-family: "Poor Story", cursive;
 }
-#tip{
-    display: block;
-    margin: 10px auto;
-    font-size: 30px;
-    color:red;
-    text-align: center;
+h2 {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #c0bfbf;
+}
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 1.5rem 1rem;
+}
+#calculate {
+  display: block;
+  outline: 0;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+#calculate:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+#tip {
+  display: block;
+  margin: 1rem auto;
+  font-size: 3rem;
+  color: red;
+  text-align: center;
 }
